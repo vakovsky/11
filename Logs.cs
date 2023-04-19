@@ -1,22 +1,22 @@
-public class Users
+public class Logs
 {
-  public void Create(User u)
+  public void Create(Log l)
   {
       
   }
-  public User Read(User u)
+  public User Read(Log l)
   {
       
   }
-  public void Update(User u)
+  public void Update(Log l)
   {
       
   }
-  public void Delete(User u)
+  public void Delete(Log l)
   {
       
   }
-  public List<User> List()
+  public List<Log> List()
   {
       
   }
