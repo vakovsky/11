@@ -78,11 +78,6 @@
                 users = (from u in context.Users
                          orderby u.UserId
                          select u).ToList();
-                //Console.WriteLine("All users in the database:");
-                //foreach (var user in users)
-                //{
-                //    Console.WriteLine("{0} {1}", user.UserId, user.Username);
-                //}
             }
             return users;
         }
