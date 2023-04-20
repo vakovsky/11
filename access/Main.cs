@@ -13,11 +13,13 @@
             //user.UserId = int.Parse(Console.ReadLine());
             //users.Delete(user);
 
+            //Console.Write("UserId:");
             //user.UserId = int.Parse(Console.ReadLine());
             //user.Username = "user36";
             //user.Password = "pass36";
             //users.Update(user);
 
+            //Console.Write("UserId:");
             //user.UserId = int.Parse(Console.ReadLine());
             //user = users.Read(user);
             //Console.WriteLine(user.Username);
