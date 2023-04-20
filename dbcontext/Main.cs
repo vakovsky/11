@@ -61,7 +61,7 @@ class Program
         {
             Console.Write("UserId:");
             int id = int.Parse(Console.ReadLine());
-            var user = (from u in context.Users
+            User user = (from u in context.Users
                         where u.UserId == id
                         select u).Single();
             context.Users.Remove(user);
