@@ -1,3 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity;
+
+namespace ConsoleApp2
+{
     public class User
     {
         [Key]
@@ -69,6 +80,22 @@
                 context.SaveChanges();
             }
         }
+        public List<User> List()
+        {
+            List<User> users = null;
+            using (var context = new DataBaseContext())
+            {
+                users = (from u in context.Users
+                         orderby u.UserId
+                         select u).ToList();
+                //Console.WriteLine("All users in the database:");
+                //foreach (var user in users)
+                //{
+                //    Console.WriteLine("{0} {1}", user.UserId, user.Username);
+                //}
+            }
+            return users;
+        }
     }
 
     class Program
@@ -78,11 +105,11 @@
             Users users = new Users();
             User user = new User();
 
-            Console.Write("Username:");
+            /*Console.Write("Username:");
             user.Username = Console.ReadLine();
             Console.Write("Password:");
             user.Password = Console.ReadLine();
-            users.Create(user);
+            users.Create(user);*/
 
             /*Console.Write("UserId:");
             user.UserId = int.Parse(Console.ReadLine());
@@ -101,9 +128,14 @@
             user = users.Read(user);
             Console.WriteLine(user.Username);
             Console.WriteLine(user.Password);*/
+
+            foreach (User user1 in users.List())
+            {
+                Console.WriteLine("{0} {1}", user1.UserId, user1.Username);
+            }
         }
     }
-
+}
 //using System.ComponentModel.DataAnnotations;
 //using System.ComponentModel.DataAnnotations.Schema;
 //using System.Data.Entity;
