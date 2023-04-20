@@ -87,6 +87,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        Users users = new Users();
+        User user = new User();
+            
         Console.Write("Username:");
         user.Username = Console.ReadLine();
         Console.Write("Password:");
