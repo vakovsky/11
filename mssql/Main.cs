@@ -1,3 +1,5 @@
+  //в Main метода например  
+
   Users users = new Users();
   User user = new User();
 
