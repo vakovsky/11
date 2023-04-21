@@ -13,5 +13,6 @@
 ## [3.3 Създаване на конзолно приложение и класове Main.cs](https://github.com/vakovsky/11/tree/main/dbcontext)
 # [5. Създаване на конзолно приложение](https://github.com/vakovsky/11/tree/main/)
 # [6. Създаване на Windows-Forms приложение](https://github.com/vakovsky/11/tree/main/)
+# [7. Създаване на Web приложение](https://github.com/vakovsky/11/tree/main/)
 # [https://github.com/vakovsky/11](https://github.com/vakovsky/11)
 databaseCF.mdf
