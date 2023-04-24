@@ -10,7 +10,7 @@
 # [4. Създаване на база от данни от Същностни класове (DbContext)](https://github.com/vakovsky/11/tree/main/dbcontext)
 ## [4.1 Прочитане на DBContext.docx](https://github.com/vakovsky/11/tree/main/dbcontext)
 ## [3.2 Свързване (Създаване и свързване) databaseCF.mdf](https://github.com/vakovsky/11/tree/main/dbcontext)
-## [3.3 Създаване конзолно приложение и класове User.cs, Users.cs, Log.cs, Logs.cs, Main.cs](https://github.com/vakovsky/11/tree/main/dbcontext)
+## [3.3 Създаване конзолно приложение и класове User.cs, Users.cs, Log.cs, Logs.cs, DataBaseContext.cs, Main.cs](https://github.com/vakovsky/11/tree/main/dbcontext)
 # [Задача: Създаване на конзолно приложение](https://github.com/vakovsky/11/tree/main/)
 # [Задача: Създаване на Windows-Forms приложение](https://github.com/vakovsky/11/tree/main/)
 # [https://github.com/vakovsky/11](https://github.com/vakovsky/11)
