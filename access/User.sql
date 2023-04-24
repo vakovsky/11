@@ -3,5 +3,5 @@ CREATE TABLE [Users] (
     [Username] VARCHAR (100)  NOT NULL,
     [Password] VARCHAR (100) NULL,
     CONSTRAINT UserId_PK PRIMARY KEY ([UserId]),
-    UNIQUE (Username)
+    UNIQUE ([Username])
 )
