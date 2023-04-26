@@ -12,6 +12,12 @@
 ## [3.2 Свързване (Създаване и свързване) databaseCF.mdf](https://github.com/vakovsky/11/tree/main/dbcontext)
 ## [3.3 Създаване конзолно приложение и класове User.cs, Users.cs, Log.cs, Logs.cs, DataBaseContext.cs, Main.cs](https://github.com/vakovsky/11/tree/main/dbcontext)
 # [Задача: Създаване на конзолно приложение](https://github.com/vakovsky/11/tree/main/)
+## [1](https://github.com/vakovsky/11/tree/main/dbcontext)
+## [2](https://github.com/vakovsky/11/tree/main/dbcontext)
+## [3](https://github.com/vakovsky/11/tree/main/dbcontext)
 # [Задача: Създаване на Windows-Forms приложение](https://github.com/vakovsky/11/tree/main/)
+## [1](https://github.com/vakovsky/11/tree/main/dbcontext)
+## [2](https://github.com/vakovsky/11/tree/main/dbcontext)
+## [3](https://github.com/vakovsky/11/tree/main/dbcontext)
 # [https://github.com/vakovsky/11](https://github.com/vakovsky/11)
 databaseCF.mdf
