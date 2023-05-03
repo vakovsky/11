@@ -1,5 +1,6 @@
 # [1. Създаване на база от данни в Паметта (DataSet)](https://github.com/vakovsky/11/tree/main/memory)
 ## [1.1 Прочитане на DataSet.docx](https://github.com/vakovsky/11/tree/main/memory)
+## [1.2 Прочитане на HW.docx домашна работа](https://github.com/vakovsky/11/tree/main/memory)
 # [2. Създаване на база от данни в MS Access (OleDbConnection, OleDbCommand, OleDbDataReader, OleDbDataAdapter, DataSet)](https://github.com/vakovsky/11/tree/main/access)
 ## [2.1 Прочитане на MS_Access.docx](https://github.com/vakovsky/11/tree/main/access)
 ## [2.2 Свързване (Създаване и свързване) DatabaseDF.accdb](https://github.com/vakovsky/11/tree/main/access)
