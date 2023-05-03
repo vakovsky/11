@@ -1,3 +1,4 @@
+# [0. Теоретични и практични въпроси и практика по Разработка на софтуер](https://github.com/vakovsky/11)
 # [1. Създаване на база от данни в Паметта (DataSet)](https://github.com/vakovsky/11/tree/main/memory)
 ## [1.1 Прочитане на DataSet.docx](https://github.com/vakovsky/11/tree/main/memory)
 ## [1.2 Прочитане на HW.docx домашна работа](https://github.com/vakovsky/11/tree/main/memory)
@@ -23,3 +24,4 @@
 ## [3](https://github.com/vakovsky/11/tree/main/dbcontext)
 # [https://github.com/vakovsky/11](https://github.com/vakovsky/11)
 databaseCF.mdf
+Теоретични и практични въпроси и практика по Разработка на софтуер
