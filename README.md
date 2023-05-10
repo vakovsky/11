@@ -23,5 +23,5 @@
 ## [2. С достъп до база от данни: Code First- Microsoft SQL Server Database File](https://github.com/vakovsky/11/tree/main/dbcontext)
 ## [3. С достъп до база от данни: Database First- Microsoft SQL Server Database File](https://github.com/vakovsky/11/tree/main/mssql)
 # [https://github.com/vakovsky/11](https://github.com/vakovsky/11)
-# [ИНФОРМАТИКА](https://izkustva.bg/pdf/TextBook_I8.pdf)
+# [ИНФОРМАТИКА стр. 31-](https://izkustva.bg/pdf/TextBook_I8.pdf)
 databaseCF.mdf
