@@ -13,7 +13,7 @@ namespace ConsoleApp1
             //SquareController controller = new SquareController();
             //RectController rectController = new RectController();
             //CircleController circleController = new CircleController();
-            BCController bCController = new BCController();
+            //BCController bCController = new BCController();
         }
     }
 }
