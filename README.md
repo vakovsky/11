@@ -1,6 +1,6 @@
 # [Създаване на решения и проекти](https://github.com/vakovsky/11/tree/main/mvc)
 ## [Структура на MVC проекта](https://github.com/vakovsky/11/blob/main/mvc/Solution.png)
-## [Създаване на MVC проекта](https://github.com/vakovsky/11/blob/main/mvc/Solution.png)
+## [Създаване на MVC проекта](https://github.com/vakovsky/11/blob/main/mvc/projects.pdf)
 # [1. Създаване на база от данни в Паметта (DataSet)](https://github.com/vakovsky/11/tree/main/memory)
 ## [1.1 Прочитане на DataSet.docx](https://github.com/vakovsky/11/tree/main/memory)
 ## [1.2 Прочитане на HW.docx](https://github.com/vakovsky/11/tree/main/memory)
