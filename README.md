@@ -2,7 +2,7 @@
 ## [1. Решения и проекти](https://github.com/vakovsky/11/tree/main/mvc)
 ### [1.1 Структура на MVC проекта](https://github.com/vakovsky/11/blob/main/mvc/docs/Solution.png)
 ### [1.2 Създаване на MVC решение и проекти в решението](https://github.com/vakovsky/11/blob/main/mvc/docs/projects.pdf)
-### [1.3 Структура на MVVM]()
+### [1.3 Структура на MVVM](https://github.com/vakovsky/11/blob/main/mvc/docs/projects.pdf)
 ## [3 Контрол на входните данни]()
 ### [3.1 Конзолно приложение]()
 ### [3.2 Десктоп приложение]()
