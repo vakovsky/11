@@ -56,7 +56,8 @@ private void button1_Click_1(object sender, EventArgs e)
                     R = 67,
                 },
             };
-            listBox1.Items.AddRange(circle.ToArray());
+        listBox1.Items.AddRange(circle);
+            listBox1.Items.AddRange(circle2.ToArray());
         }
 
         private void button3_Click_1(object sender, EventArgs e)
