@@ -59,7 +59,7 @@ private void button1_Click_1(object sender, EventArgs e)
             listBox1.Items.Clear();
             string json;
             json = File.ReadAllText("test.json");
-            var circles = JsonSerializer.Deserialize(json, typeof(Circle[])) as Circle[];
+            Circle[] circles = JsonSerializer.Deserialize(json, typeof(Circle[])) as Circle[];
             listBox1.Items.AddRange(circles.ToArray());
         }
 
