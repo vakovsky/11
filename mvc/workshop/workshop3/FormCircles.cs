@@ -154,7 +154,7 @@ namespace WindowsFormsApp1
         private void buttonLoadJSON_Click(object sender, EventArgs e)
         {
             string json = File.ReadAllText("json.txt");
-            var circles = JsonSerializer.Deserialize(json, typeof(Circle[])) as Circle[];
+            Circle[] circles = JsonSerializer.Deserialize(json, typeof(Circle[])) as Circle[];
             listBox1.Items.AddRange(circles.ToArray());
         }
 
@@ -162,14 +162,17 @@ namespace WindowsFormsApp1
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
             StreamWriter streamWriter = new StreamWriter("xml.xml");
-            var c = listBox1.Items.Cast<Circle>().ToArray();
+            Circle[] circles = listBox1.Items.Cast<Circle>().ToArray();
             xmlSerializer.Serialize(streamWriter, c);
             streamWriter.Close();
         }
 
         private void buttonLoadXML_Click(object sender, EventArgs e)
         {
-
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
+            StreamReader streamReader = new StreamReader("test.txt");
+            Circle[] circles = xmlSerializer.Deserialize(streamReader) as Circle[];
+            listBox1.Items.AddRange(circles.ToArray());
         }
 
         private void button2_Click(object sender, EventArgs e)
