@@ -172,5 +172,10 @@ namespace WindowsFormsApp1
         {
             File.WriteAllText("test.txt", "Hello");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string str1 = File.ReadAllText("test.txt");
+        }
     }
 }
