@@ -106,11 +106,7 @@ namespace WindowsFormsApp1
                 Id = 1,
                 R = 10,
             };
-            new Circle
-            {
-                Id = 2,
-                R = 23,
-            };
+            Circle circle = new Circle { Id = 1, R = 10 };
             List<Circle> circles = new List<Circle>
             {
                 new Circle
@@ -137,9 +133,6 @@ namespace WindowsFormsApp1
                     R = 83,
                 },
             };
-
-            Circle circle = new Circle { Id = 1, R = 10 };
-
             listBox1.Items.AddRange(circles.ToArray());
             listBox1.Items.AddRange(circles2);
         }
