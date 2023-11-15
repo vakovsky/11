@@ -148,7 +148,7 @@ namespace WindowsFormsApp1
         {
             string json = File.ReadAllText("json.txt");
             Circle[] circles = JsonSerializer.Deserialize(json, typeof(Circle[])) as Circle[];
-            listBox1.Items.AddRange(circles.ToArray());
+            listBox1.Items.AddRange(circles);
         }
 
         private void buttonSaveXML_Click(object sender, EventArgs e)
