@@ -1,5 +1,5 @@
 # [Използване на MVC в конзолно приложение]()
-## [workshop1 - MVC Base App](https://github.com/vakovsky/11/tree/main/mvc/workshop/workshop1)
+## [workshop1 - MVC Base App](https://github.com/vakovsky/11/tree/main/mvc/workshop/workshop0)
 ## [workshop1 - MVC Console App](https://github.com/vakovsky/11/tree/main/mvc/workshop/workshop1)
 # [Използване на MVC в WFA]()
 ## [workshop2 - WFA Base App](https://github.com/vakovsky/11/tree/main/mvc/workshop/workshop2)
