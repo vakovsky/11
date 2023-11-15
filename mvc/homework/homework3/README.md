@@ -3,8 +3,8 @@
 ## 2. Да се създаде проект Библиотека.
 ### 2.1 Да се създаде Модел на потребител, като се използва следната информация https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/  
 ## 3. Да се създаде пеоект WFA.
-### [3.1 Да се създаде Изглед за модела с подходящо име.](https://github.com/vakovsky/11/blob/main/mvc/homework/homework3/FormUserView.png)
-### [3.2 Да се създаде Контролер със Списък и CRUD операции.](https://github.com/vakovsky/11/blob/main/mvc/homework/homework3/FormUsers.png)
+### [3.1 Да се създаде Изглед за модела с подходящо име и вид.](https://github.com/vakovsky/11/blob/main/mvc/homework/homework3/FormUserView.png)
+### [3.2 Да се създаде Контролер със Списък и CRUD операции с подходящо име и вид.](https://github.com/vakovsky/11/blob/main/mvc/homework/homework3/FormUsers.png)
 ### 3.3 Да се добавят в Контролера операции за сериализация и десериализация в и от JSON.
 ## 4. Да се създаде пеоект Конзолен по подобие на workshop2
 ### 4.1 Да се създаде Изглед за модела с подходящо име и вид.
