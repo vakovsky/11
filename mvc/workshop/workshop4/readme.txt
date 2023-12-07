@@ -1,3 +1,5 @@
+bool left = true;
+
 private void timer1_Tick(object sender, EventArgs e)
 {
   if (pictureBox1.Left >= 0 && left)
