@@ -1,2 +1,5 @@
 # 1. [MVC](https://github.com/vakovsky/11/blob/main/mvc).
-# 2. [Windows Application Driver (WinAppDriver) is a service to support Selenium-like UI Test Automation on Windows Applications](https://github.com/microsoft/WinAppDriver/tree/master).
+# 2. [Types of Software Testing](https://www.geeksforgeeks.org/types-software-testing/).
+# 3. [Integration Testing: What is, Types with Example](https://www.guru99.com/integration-testing.html).
+# 4. [What is System Testing? Types with Example](https://www.guru99.com/system-testing.html).
+# 3. [Windows Application Driver (WinAppDriver) is a service to support Selenium-like UI Test Automation on Windows Applications](https://github.com/microsoft/WinAppDriver/tree/master).
