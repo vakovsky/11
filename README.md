@@ -1,8 +1,8 @@
-# [https://www.sqlitetutorial.net/]()
-# [https://www.mysqltutorial.org/]()
-# [https://www.sqlservertutorial.net/]()
-# [https://www.postgresqltutorial.com/]()
-# [https://www.oracletutorial.com/]()
+# [https://www.sqlitetutorial.net/](https://www.sqlitetutorial.net/)
+# [https://www.mysqltutorial.org/](https://www.mysqltutorial.org/)
+# [https://www.sqlservertutorial.net/](https://www.sqlservertutorial.net/)
+# [https://www.postgresqltutorial.com/](https://www.postgresqltutorial.com/)
+# [https://www.oracletutorial.com/](https://www.oracletutorial.com/)
 
 # [https://github.com/BG-IT-Edu/School-Programming/tree/main/Courses/Applied-Programmer/Practical-Software-Development)](https://github.com/BG-IT-Edu/School-Programming/tree/main/Courses/Applied-Programmer/Practical-Software-Development)  
 ## [1. Преглед-на-трислойния-модел](https://github.com/BG-IT-Edu/School-Programming/tree/main/Courses/Applied-Programmer/Practical-Software-Development/1.%D0%9F%D1%80%D0%B5%D0%B3%D0%BB%D0%B5%D0%B4-%D0%BD%D0%B0-%D1%82%D1%80%D0%B8%D1%81%D0%BB%D0%BE%D0%B9%D0%BD%D0%B8%D1%8F-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB).
