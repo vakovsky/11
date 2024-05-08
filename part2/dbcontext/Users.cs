@@ -13,9 +13,10 @@ class Users
         {
             using (DataBaseContext context = new DataBaseContext())
             {
-                user = (from u in context.Users
-                     where u.UserId == user.UserId
-                     select u
+                user = (
+                    from u in context.Users
+                    where u.UserId == user.UserId
+                    select u
                 ).Single();
                 return user;
             }
@@ -54,9 +55,11 @@ class Users
             List<User> users = null;
             using (var context = new DataBaseContext())
             {
-                users = (from u in context.Users
-                         orderby u.UserId
-                         select u).ToList();
+                users = (
+                    from u in context.Users
+                    orderby u.UserId
+                    select u
+                ).ToList();
             }
             return users;
         }
