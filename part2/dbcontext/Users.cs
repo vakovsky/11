@@ -1,46 +1,51 @@
 class Users
     {
-        public void Create(User u)
+        public void Create(User user)
         {
             using (DataBaseContext context = new DataBaseContext())
             {
-                context.Users.Add(u);
+                context.Users.Add(user);
                 context.SaveChanges();
             }
         }
 
-        public User Read(User u)
+        public User Read(User user)
         {
             using (DataBaseContext context = new DataBaseContext())
             {
-                u = (from user in context.Users
-                     where user.UserId == u.UserId
-                     select user).Single();
-                return u;
+                user = (from u in context.Users
+                     where u.UserId == user.UserId
+                     select u
+                ).Single();
+                return user;
             }
         }
 
-        public void Update(User u)
+        public void Update(User user)
         {
             using (DataBaseContext context = new DataBaseContext())
             {
-                User user = (from userold in context.Users
-                             where userold.UserId == u.UserId
-                             select userold).Single();
-                user.Username = u.Username;
-                user.Password = u.Password;
+                User userold = (
+                    from u in context.Users
+                    where u.UserId == user.UserId
+                    select u
+                ).Single();
+                userold.Username = user.Username;
+                userold.Password = user.Password;
                 context.SaveChanges();
             }
         }
 
-        public void Delete(User u)
+        public void Delete(User user)
         {
             using (DataBaseContext context = new DataBaseContext())
             {
-                User user = (from userold in context.Users
-                             where userold.UserId == u.UserId
-                             select userold).Single();
-                context.Users.Remove(user);
+                User userold = (
+                    from u in context.Users
+                    where u.UserId == user.UserId
+                    select u
+                ).Single();
+                context.Users.Remove(userold);
                 context.SaveChanges();
             }
         }
