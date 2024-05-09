@@ -6,7 +6,7 @@
 ### 3.1 Да се създаде [Изглед за модела с подходящо име, вид и функционалност](https://github.com/vakovsky/11/blob/main/part1(mvc)/homework/homework3/FormUserView.png).
 ### 3.2 Да се създаде [Контролер със Списък и CRUD операции с подходящо име, вид и функционалност.](https://github.com/vakovsky/11/blob/main/part1(mvc)/homework/homework3/FormUsers.png)
 ### 3.3 Да се добавят в [Контролера операции за сериализация и десериализация в и от JSON.](https://github.com/vakovsky/11/blob/main/part1(mvc)/homework/homework3/FormUsersWithJSON.png)
-## 4. Да се създаде [проект Конзолен](https://github.com/vakovsky/11/blob/main/part1(mvc)/docs/projects.pdf) фигура 2 по подобие на workshop1.
+## 4. Да се създаде [проект Конзолен](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f2.pdf) фигура 2 по подобие на workshop1.
 ### 4.1 Да се създаде [Изглед за модела с подходящо име, вид и функционалност](https://github.com/vakovsky/11/blob/main/part1(mvc)/homework/homework3/View.png).
 ### 4.2 Да се създаде Контролер с операция за логване. https://www.thegeekdiary.com/login-command-examples-in-linux/
 [//]: ### 4.3 Да се добавят в Контролера операции за сериализация и десериализация в и от JSON.
