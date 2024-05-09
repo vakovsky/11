@@ -1,5 +1,5 @@
 # По подобие на workshop3 да се изпълнят следните задачи:
-## 1. Да се създаде [проект Решение](https://github.com/vakovsky/11/blob/main/part1(mvc)/docs/projects.pdf) фигура 1.
+## 1. Да се създаде [проект Решение](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f1.pdf) фигура 1.
 ## 2. Да се създаде [проект Библиотека](https://github.com/vakovsky/11/blob/main/part1(mvc)/docs/projects.pdf) фигура 3.
 ### 2.1 Да се създаде Модел на потребител(User), като се използва [следната информация](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/). 
 ## 3. Да се създаде [пеоект WFA](https://github.com/vakovsky/11/blob/main/part1(mvc)/docs/projects.pdf) фигура 4.
