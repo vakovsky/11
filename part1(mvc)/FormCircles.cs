@@ -30,35 +30,46 @@ namespace WindowsFormsApp1
 
         private void buttonRead_Click(object sender, EventArgs e)
         {
-            int index = listBox1.SelectedIndex;
-            Circle circle = listBox1.Items[index] as Circle;
-            FormCircleView formCircleView = new FormCircleView();
-            formCircleView.textBoxR.Text = circle.R.ToString();
-            formCircleView.textBoxArea.Text = circle.Area.ToString();
-            formCircleView.ShowDialog();
+            if (listBox1.SelectedIndex != -1)
+            {
+                int index = listBox1.SelectedIndex;
+                Circle circle = listBox1.Items[index] as Circle;
+                FormCircleView formCircleView = new FormCircleView();
+                formCircleView.textBoxR.Text = circle.R.ToString();
+                formCircleView.textBoxArea.Text = circle.Area.ToString();
+                formCircleView.ShowDialog();
+            }
         }
 
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
-            int index = listBox1.SelectedIndex;
-            Circle circle = listBox1.Items[index] as Circle;
-            FormCircleView formCircleView = new FormCircleView();
-            formCircleView.textBoxR.Text = circle.R.ToString();
-            formCircleView.textBoxArea.Text = circle.Area.ToString();
-            formCircleView.ShowDialog();
-            circle.R = int.Parse(formCircleView.textBoxR.Text);
-            listBox1.Items[index] = circle;
+            if (listBox1.SelectedIndex != -1)
+            {
+                int index = listBox1.SelectedIndex;
+                Circle circle = listBox1.Items[index] as Circle;
+                FormCircleView formCircleView = new FormCircleView();
+                formCircleView.textBoxR.Text = circle.R.ToString();
+                formCircleView.textBoxArea.Text = circle.Area.ToString();
+                if (formCircleView.ShowDialog() == DialogResult.OK)
+                {
+                    circle.R = int.Parse(formCircleView.textBoxR.Text);
+                    listBox1.Items[index] = circle;
+                }
+            }
         }
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            int index = listBox1.SelectedIndex;
-            Circle circle = listBox1.Items[index] as Circle;
-            FormCircleView formCircleView = new FormCircleView();
-            formCircleView.textBoxR.Text = circle.R.ToString();
-            formCircleView.textBoxArea.Text = circle.Area.ToString();
-            formCircleView.ShowDialog();
-            listBox1.Items.RemoveAt(index);
+            if (listBox1.SelectedIndex != -1)
+            {
+                int index = listBox1.SelectedIndex;
+                Circle circle = listBox1.Items[index] as Circle;
+                FormCircleView formCircleView = new FormCircleView();
+                formCircleView.textBoxR.Text = circle.R.ToString();
+                formCircleView.textBoxArea.Text = circle.Area.ToString();
+                formCircleView.ShowDialog();
+                listBox1.Items.RemoveAt(index);
+            }
         }
     }
 }
