@@ -156,7 +156,7 @@ namespace WindowsFormsApp1
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
             StreamWriter streamWriter = new StreamWriter("xml.xml");
             Circle[] circles = listBox1.Items.Cast<Circle>().ToArray();
-            xmlSerializer.Serialize(streamWriter, c);
+            xmlSerializer.Serialize(streamWriter, circles);
             streamWriter.Close();
         }
 
