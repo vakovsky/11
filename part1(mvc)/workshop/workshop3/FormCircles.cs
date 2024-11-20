@@ -99,42 +99,35 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonNew_Click(object sender, EventArgs e)
         {
-            new Circle
-            {
-                Id = 1,
-                R = 10,
-            };
-            Circle circle = new Circle { Id = 1, R = 10 };
-            List<Circle> circles = new List<Circle>
+            Circle circle = new Circle { R = 15 };
+            List<Circle> circlesList = new List<Circle>
             {
                 new Circle
                 {
-                    Id = 1,
                     R = 10,
                 },
                 new Circle
                 {
-                    Id = 2,
                     R = 23,
                 },
+                circle
             };
-            Circle[] circles2 = new[]
+            Circle[] circlesArray = new[]
             {
                 new Circle
                 {
-                    Id = 3,
-                    R = 50,
+                      R = 50,
                 },
                 new Circle
                 {
-                    Id = 4,
                     R = 83,
                 },
             };
-            listBox1.Items.AddRange(circles.ToArray());
-            listBox1.Items.AddRange(circles2);
+            listBox1.Items.AddRange(circlesList.ToArray());
+            listBox1.Items.AddRange(circlesArray);
+            listBox1.Items.Add(new Circle { R = 34 });
         }
 
         private void buttonSaveJSON_Click(object sender, EventArgs e)
