@@ -165,24 +165,5 @@ namespace WindowsFormsApp1
             listBox1.Items.AddRange(circlesArray);
             listBox1.Items.Add(new Circle { R = 34 });
         }
-
-        private void buttonLoadCSV_Click(object sender, EventArgs e)
-        {
-            string[] lines = File.ReadAllLines("passwd");
-            foreach (string line in lines)
-            {
-                string[] items = line.Split(':');
-                User user = new User
-                {
-                    Username = items[0],
-                    Password = items[1],
-                    UserID = int.Parse(items[2]),
-                    GroupID = int.Parse(items[3]),
-                    HomeDirectory = items[4],
-                    CommandShell = items[5]
-                };
-                listBox1.Items.Add(user);
-            }
-        }
     }
 }
