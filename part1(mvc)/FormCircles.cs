@@ -90,7 +90,6 @@ namespace WindowsFormsApp1
             buttonRead_Click(sender, e);
         }
         
-        //Export as JSON
         private void buttonSaveJSON_Click(object sender, EventArgs e)
         {
             saveFileDialog1.InitialDirectory = Application.StartupPath;
@@ -103,7 +102,6 @@ namespace WindowsFormsApp1
             }
         }
         
-        //Import as JSON
         private void buttonLoadJSON_Click(object sender, EventArgs e)
         {
             openFileDialog1.InitialDirectory = Application.StartupPath;
@@ -117,7 +115,6 @@ namespace WindowsFormsApp1
             }
         }
         
-        //Export as XML
         private void buttonSaveXML_Click(object sender, EventArgs e)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
@@ -127,7 +124,6 @@ namespace WindowsFormsApp1
             streamWriter.Close();
         }
         
-        //Import as XML
         private void buttonLoadXML_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
