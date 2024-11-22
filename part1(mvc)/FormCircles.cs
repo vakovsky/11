@@ -214,5 +214,47 @@ namespace WindowsFormsApp1
             oleDbDataReader.Close();
             oleDbConnection.Close();
         }
+
+        private void buttonSaveMSSQLDB_Click(object sender, EventArgs e)
+        {
+            SqlConnection sqlConnection = new SqlConnection();
+            sqlConnection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Student\source\repos\SolutionPSD\MSSQLDB.mdf;Integrated Security=True;Connect Timeout=30";
+            sqlConnection.Open();
+            SqlCommand sqlCommand = new SqlCommand();
+            sqlCommand.Connection = sqlConnection;
+            foreach (Circle circle in listBox1.Items.Cast<Circle>())
+            {
+                sqlCommand.CommandText = string.Format(
+                    "INSERT INTO Circles ([R])" +
+                    "VALUES('{0}')",
+                    circle.R
+                    );
+                sqlCommand.ExecuteNonQuery();
+            }
+            sqlConnection.Close();
+        }
+
+        private void buttonLoadMSSQLDB_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            SqlConnection sqlConnection = new SqlConnection();
+            sqlConnection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Student\source\repos\SolutionPSD\MSSQLDB.mdf;Integrated Security=True;Connect Timeout=30";
+            sqlConnection.Open();
+            SqlCommand sqlCommand = new SqlCommand();
+            sqlCommand.Connection = sqlConnection;
+            sqlCommand.CommandText = string.Format(
+                "SELECT * FROM Circles;"
+                );
+            SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+            while (sqlDataReader.Read())
+            {
+                Circle circle = new Circle();
+                circle.ID = Convert.ToInt32(sqlDataReader["ID"]);
+                circle.R = Convert.ToInt32(sqlDataReader["R"]);
+                listBox1.Items.Add(circle);
+            }
+            sqlDataReader.Close();
+            sqlConnection.Close();
+        }
     }
 }
