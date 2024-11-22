@@ -14,6 +14,8 @@ using System.Text.Json;
 using System.Xml.Serialization;
 using System.IO;
 
+using System.Data.OleDb;
+
 namespace WindowsFormsApp1
 {
     public partial class FormCircles : System.Windows.Forms.Form
@@ -160,6 +162,47 @@ namespace WindowsFormsApp1
             listBox1.Items.AddRange(circlesList.ToArray());
             listBox1.Items.AddRange(circlesArray);
             listBox1.Items.Add(new Circle { R = 34 });
+        }
+
+        private void buttonSaveAccessDB_Click(object sender, EventArgs e)
+        {
+            OleDbConnection oleDbConnection = new OleDbConnection();
+            oleDbConnection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Student\source\repos\SolutionPSD\DatabasePSD.accdb";
+            oleDbConnection.Open();
+            OleDbCommand oleDbCommand = new OleDbCommand();
+            oleDbCommand.Connection = oleDbConnection;
+            foreach (Circle circle in listBox1.Items.Cast<Circle>())
+            {
+                oleDbCommand.CommandText = string.Format(
+                    "INSERT INTO Circles ([R])" +
+                    "VALUES('{0}')",
+                    circle.R
+                    );
+                oleDbCommand.ExecuteNonQuery();
+            }
+            oleDbConnection.Close();
+        }
+
+        private void buttonLoadAccessDB_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            OleDbConnection oleDbConnection = new OleDbConnection();
+            oleDbConnection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Student\source\repos\SolutionPSD\DatabasePSD.accdb";
+            oleDbConnection.Open();
+            OleDbCommand oleDbCommand = new OleDbCommand();
+            oleDbCommand.Connection = oleDbConnection;
+            oleDbCommand.CommandText = string.Format(
+                "SELECT * FROM Circles;"
+                );
+            OleDbDataReader oleDbDataReader = oleDbCommand.ExecuteReader();
+            while (oleDbDataReader.Read())
+            {
+                Circle circle = new Circle();
+                circle.R = Convert.ToInt32(oleDbDataReader["R"]);
+                listBox1.Items.Add(circle);
+            }
+            oleDbDataReader.Close();
+            oleDbConnection.Close();
         }
     }
 }
