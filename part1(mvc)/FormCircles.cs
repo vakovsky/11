@@ -260,27 +260,42 @@ namespace WindowsFormsApp1
 
         private void buttonLoadCSV_Click(object sender, EventArgs e)
         {
-            string[] lines = File.ReadAllLines("circles.csv");
-            foreach (string line in lines)
+            openFileDialog1.InitialDirectory = Application.StartupPath;
+            openFileDialog1.FileName = "circles.csv";
+            openFileDialog1.DefaultExt = "csv";
+            openFileDialog1.Filter = "Character-separated values files (*.csv)|*.csv|All files (*.*)|*.*";
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                string[] fields = line.Split(':');
-                Circle circle = new Circle
+                listBox1.Items.Clear();
+                string[] lines = File.ReadAllLines(openFileDialog1.FileName);
+                foreach (string line in lines)
                 {
-                    ID = Convert.ToInt32(fields[0]),
-                    R = Convert.ToInt32(fields[1]),
-                };
-                listBox1.Items.Add(circle);
+                    string[] fields = line.Split(':');
+                    Circle circle = new Circle
+                    {
+                        ID = Convert.ToInt32(fields[0]),
+                        R = Convert.ToInt32(fields[1]),
+                    };
+                    listBox1.Items.Add(circle);
+                }
             }
         }
 
         private void buttonSaveCSV_Click(object sender, EventArgs e)
         {
-            List<string> lines = new List<string>();
-            foreach (Circle circle in listBox1.Items.Cast<Circle>())
+            saveFileDialog1.InitialDirectory = Application.StartupPath;
+            saveFileDialog1.FileName = "circles.csv";
+            saveFileDialog1.DefaultExt = "csv";
+            saveFileDialog1.Filter = "Character-separated values files (*.csv)|*.csv|All files (*.*)|*.*";
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                lines.Add(string.Format("{0}:{1}", circle.ID, circle.R));
+                List<string> lines = new List<string>();
+                foreach (Circle circle in listBox1.Items.Cast<Circle>())
+                {
+                    lines.Add(string.Format("{0}:{1}", circle.ID, circle.R));
+                }
+                File.WriteAllLines(saveFileDialog1.FileName, lines);
             }
-            File.WriteAllLines("circles.csv", lines);
         }
     }
 }
