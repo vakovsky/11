@@ -257,5 +257,30 @@ namespace WindowsFormsApp1
             sqlDataReader.Close();
             sqlConnection.Close();
         }
+
+        private void buttonLoadCSV_Click(object sender, EventArgs e)
+        {
+            string[] lines = File.ReadAllLines("circles.csv");
+            foreach (string line in lines)
+            {
+                string[] fields = line.Split(':');
+                Circle circle = new Circle
+                {
+                    ID = Convert.ToInt32(fields[0]),
+                    R = Convert.ToInt32(fields[1]),
+                };
+                listBox1.Items.Add(circle);
+            }
+        }
+
+        private void buttonSaveCSV_Click(object sender, EventArgs e)
+        {
+            List<string> lines = new List<string>();
+            foreach (Circle circle in listBox1.Items.Cast<Circle>())
+            {
+                lines.Add(string.Format("{0}:{1}", circle.ID, circle.R));
+            }
+            File.WriteAllLines("circles.csv", lines);
+        }
     }
 }
