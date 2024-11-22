@@ -117,20 +117,30 @@ namespace WindowsFormsApp1
         
         private void buttonSaveXML_Click(object sender, EventArgs e)
         {
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
-            StreamWriter streamWriter = new StreamWriter("circles.xml");
-            Circle[] circles = listBox1.Items.Cast<Circle>().ToArray();
-            xmlSerializer.Serialize(streamWriter, circles);
-            streamWriter.Close();
+            saveFileDialog1.InitialDirectory = Application.StartupPath;
+            saveFileDialog1.FileName = "circles.xml";
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
+                StreamWriter streamWriter = new StreamWriter(saveFileDialog1.FileName);
+                Circle[] circles = listBox1.Items.Cast<Circle>().ToArray();
+                xmlSerializer.Serialize(streamWriter, circles);
+                streamWriter.Close();
+            }
         }
         
         private void buttonLoadXML_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
-            StreamReader streamReader = new StreamReader("circles.xml");
-            Circle[] circles = xmlSerializer.Deserialize(streamReader) as Circle[];
-            listBox1.Items.AddRange(circles);
+            openFileDialog1.InitialDirectory = Application.StartupPath;
+            openFileDialog1.FileName = "circles.xml";
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                listBox1.Items.Clear();
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
+                StreamReader streamReader = new StreamReader(openFileDialog1.FileName);
+                Circle[] circles = xmlSerializer.Deserialize(streamReader) as Circle[];
+                listBox1.Items.AddRange(circles);
+            }
         }
 
         private void buttonNew_Click(object sender, EventArgs e)
