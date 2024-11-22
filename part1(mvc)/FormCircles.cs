@@ -89,6 +89,7 @@ namespace WindowsFormsApp1
         {
             buttonRead_Click(sender, e);
         }
+        
         //Export as JSON
         private void buttonSaveJSON_Click(object sender, EventArgs e)
         {
@@ -101,6 +102,7 @@ namespace WindowsFormsApp1
                 File.WriteAllText(saveFileDialog1.FileName, json);
             }
         }
+        
         //Import as JSON
         private void buttonLoadJSON_Click(object sender, EventArgs e)
         {
@@ -114,6 +116,7 @@ namespace WindowsFormsApp1
                 listBox1.Items.AddRange(circles);
             }
         }
+        
         //Export as XML
         private void buttonSaveXML_Click(object sender, EventArgs e)
         {
@@ -123,6 +126,7 @@ namespace WindowsFormsApp1
             xmlSerializer.Serialize(streamWriter, circles);
             streamWriter.Close();
         }
+        
         //Import as XML
         private void buttonLoadXML_Click(object sender, EventArgs e)
         {
