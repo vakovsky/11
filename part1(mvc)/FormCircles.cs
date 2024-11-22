@@ -32,10 +32,6 @@ namespace WindowsFormsApp1
                 circle.R = int.Parse(formCircleView.textBoxR.Text);
                 listBox1.Items.Add(circle);
             }
-            else
-            {
-
-            }
         }
 
         private void buttonRead_Click(object sender, EventArgs e)
