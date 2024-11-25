@@ -298,5 +298,10 @@ namespace WindowsFormsApp1
                 File.WriteAllLines(saveFileDialog1.FileName, lines);
             }
         }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+        }
     }
 }
