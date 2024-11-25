@@ -8,6 +8,7 @@ namespace ClassLibrary1
 {
     public class Circle
     {
+        public int ID { get; set; }
         public int R { get; set; }
         public double Area
         {
@@ -18,7 +19,8 @@ namespace ClassLibrary1
         }
         public override string ToString()
         {
-            return R.ToString("F2") + " " + Area.ToString("F2");
+             return ID.ToString() + " " +
+                 R.ToString() + " Area(" + Area.ToString("F2") +")";
         }
     }
 }
