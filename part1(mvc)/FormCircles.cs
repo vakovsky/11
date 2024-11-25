@@ -95,6 +95,8 @@ namespace WindowsFormsApp1
         {
             saveFileDialog1.InitialDirectory = Application.StartupPath;
             saveFileDialog1.FileName = "circles.json";
+            saveFileDialog1.DefaultExt = "json";
+            saveFileDialog1.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 var options = new JsonSerializerOptions { WriteIndented = true };
@@ -107,6 +109,8 @@ namespace WindowsFormsApp1
         {
             openFileDialog1.InitialDirectory = Application.StartupPath;
             openFileDialog1.FileName = "circles.json";
+            openFileDialog1.DefaultExt = "json";
+            openFileDialog1.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 listBox1.Items.Clear();
@@ -120,6 +124,8 @@ namespace WindowsFormsApp1
         {
             saveFileDialog1.InitialDirectory = Application.StartupPath;
             saveFileDialog1.FileName = "circles.xml";
+            saveFileDialog1.DefaultExt = "xml";
+            saveFileDialog1.Filter = "XML files (*.xml)|*.xml|All files (*.*)|*.*";
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(Circle[]));
@@ -134,6 +140,8 @@ namespace WindowsFormsApp1
         {
             openFileDialog1.InitialDirectory = Application.StartupPath;
             openFileDialog1.FileName = "circles.xml";
+            openFileDialog1.DefaultExt = "xml";
+            openFileDialog1.Filter = "XML files (*.xml)|*.xml|All files (*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 listBox1.Items.Clear();
