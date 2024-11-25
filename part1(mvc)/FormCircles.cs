@@ -210,6 +210,7 @@ namespace WindowsFormsApp1
             {
                 Circle circle = new Circle();
                 circle.R = Convert.ToInt32(oleDbDataReader["R"]);
+                circle.ID = Convert.ToInt32(oleDbDataReader["ID"]);
                 listBox1.Items.Add(circle);
             }
             oleDbDataReader.Close();
