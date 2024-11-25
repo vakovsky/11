@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[Circles]
 (
 	[ID] INT NOT NULL PRIMARY KEY IDENTITY(1,1) ,
-    [R] INT NOT NULL
+	[R] INT NOT NULL
 )
