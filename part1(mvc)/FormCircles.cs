@@ -46,6 +46,7 @@ namespace WindowsFormsApp1
                 FormCircleView formCircleView = new FormCircleView();
                 formCircleView.textBoxR.Text = circle.R.ToString();
                 formCircleView.textBoxArea.Text = circle.Area.ToString();
+                formCircleView.textBoxPerimeter.Text = circle.Perimeter.ToString();
                 formCircleView.ShowDialog();
             }
         }
@@ -61,6 +62,7 @@ namespace WindowsFormsApp1
                     FormCircleView formCircleView = new FormCircleView();
                     formCircleView.textBoxR.Text = circle.R.ToString();
                     formCircleView.textBoxArea.Text = circle.Area.ToString();
+                    formCircleView.textBoxPerimeter.Text = circle.Perimeter.ToString();
                     if (formCircleView.ShowDialog() == DialogResult.OK)
                     {
                         circle.R = int.Parse(formCircleView.textBoxR.Text);
@@ -79,6 +81,7 @@ namespace WindowsFormsApp1
                 FormCircleView formCircleView = new FormCircleView();
                 formCircleView.textBoxR.Text = circle.R.ToString();
                 formCircleView.textBoxArea.Text = circle.Area.ToString();
+                formCircleView.textBoxPerimeter.Text = circle.Perimeter.ToString();
                 if (formCircleView.ShowDialog() == DialogResult.OK)
                 {
                     listBox1.Items.RemoveAt(index);
