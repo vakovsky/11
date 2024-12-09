@@ -18,6 +18,7 @@ using System.Data.OleDb;
 using System.Data.SqlClient;
 
 using System.Data.Entity;
+using System.Runtime.Remoting.Contexts;
 
 namespace WindowsFormsApp1
 {
@@ -95,7 +96,7 @@ namespace WindowsFormsApp1
         {
             buttonRead_Click(sender, e);
         }
-        
+
         private void buttonSaveJSON_Click(object sender, EventArgs e)
         {
             saveFileDialog1.InitialDirectory = Application.StartupPath;
@@ -109,7 +110,7 @@ namespace WindowsFormsApp1
                 File.WriteAllText(saveFileDialog1.FileName, json);
             }
         }
-        
+
         private void buttonLoadJSON_Click(object sender, EventArgs e)
         {
             openFileDialog1.InitialDirectory = Application.StartupPath;
@@ -124,7 +125,7 @@ namespace WindowsFormsApp1
                 listBox1.Items.AddRange(circles);
             }
         }
-        
+
         private void buttonSaveXML_Click(object sender, EventArgs e)
         {
             saveFileDialog1.InitialDirectory = Application.StartupPath;
@@ -140,7 +141,7 @@ namespace WindowsFormsApp1
                 streamWriter.Close();
             }
         }
-        
+
         private void buttonLoadXML_Click(object sender, EventArgs e)
         {
             openFileDialog1.InitialDirectory = Application.StartupPath;
@@ -317,7 +318,7 @@ namespace WindowsFormsApp1
             listBox1.Items.Clear();
         }
 
-        private void buttonLoadMSSQLDBcontext_Click(object sender, EventArgs e)
+        private void buttonLoadMSSQLDBContext_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
             using (DataBaseContext db = new DataBaseContext())
@@ -334,7 +335,7 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void buttonSaveMSSQLDBcontext_Click(object sender, EventArgs e)
+        private void buttonSaveMSSQLDBContext_Click(object sender, EventArgs e)
         {
             using (DataBaseContext db = new DataBaseContext())
             {
@@ -351,6 +352,6 @@ namespace WindowsFormsApp1
             public DataBaseContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User3\Desktop\Solution13\Solution13\MSSQLDB.mdf;Integrated Security=True;Connect Timeout=30") { }
             public DbSet<Circle> Circles { get; set; }
         }
-       
+
     }
 }
