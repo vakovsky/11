@@ -20,7 +20,7 @@ using System.Data.SqlClient;
 using System.Data.Entity;
 using System.Runtime.Remoting.Contexts;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp5
 {
     public partial class FormCircles : System.Windows.Forms.Form
     {
@@ -234,7 +234,7 @@ namespace WindowsFormsApp1
         private void buttonSaveMSSQLDB_Click(object sender, EventArgs e)
         {
             SqlConnection sqlConnection = new SqlConnection();
-            sqlConnection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Student\source\repos\SolutionPSD\MSSQLDB.mdf;Integrated Security=True;Connect Timeout=30";
+            sqlConnection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User3\Desktop\Solution13\Solution13\DatabasePSD.mdf;Integrated Security=True;Connect Timeout=30";
             sqlConnection.Open();
             SqlCommand sqlCommand = new SqlCommand();
             sqlCommand.Connection = sqlConnection;
@@ -254,7 +254,7 @@ namespace WindowsFormsApp1
         {
             listBox1.Items.Clear();
             SqlConnection sqlConnection = new SqlConnection();
-            sqlConnection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Student\source\repos\SolutionPSD\MSSQLDB.mdf;Integrated Security=True;Connect Timeout=30";
+            sqlConnection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User3\Desktop\Solution13\Solution13\DatabasePSD.mdf;Integrated Security=True;Connect Timeout=30";
             sqlConnection.Open();
             SqlCommand sqlCommand = new SqlCommand();
             sqlCommand.Connection = sqlConnection;
@@ -349,7 +349,7 @@ namespace WindowsFormsApp1
 
         public class DataBaseContext : DbContext
         {
-            public DataBaseContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User3\Desktop\Solution13\Solution13\MSSQLDB.mdf;Integrated Security=True;Connect Timeout=30") { }
+            public DataBaseContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User3\Desktop\Solution13\Solution13\DatabasePSD.mdf;Integrated Security=True;Connect Timeout=30") { }
             public DbSet<Circle> Circles { get; set; }
         }
 
