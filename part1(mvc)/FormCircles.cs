@@ -17,6 +17,8 @@ using System.IO;
 using System.Data.OleDb;
 using System.Data.SqlClient;
 
+using System.Data.Entity;
+
 namespace WindowsFormsApp1
 {
     public partial class FormCircles : System.Windows.Forms.Form
@@ -314,5 +316,41 @@ namespace WindowsFormsApp1
         {
             listBox1.Items.Clear();
         }
+
+        private void buttonLoadMSSQLDBcontext_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            using (DataBaseContext db = new DataBaseContext())
+            {
+                using (DataBaseContext context = new DataBaseContext())
+                {
+                    List<Circle> circles = (
+                        from c in context.Circles
+                        orderby c.ID
+                        select c
+                    ).ToList();
+                    listBox1.Items.AddRange(circles.ToArray());
+                }
+            }
+        }
+
+        private void buttonSaveMSSQLDBcontext_Click(object sender, EventArgs e)
+        {
+            using (DataBaseContext db = new DataBaseContext())
+            {
+                foreach (var circle in listBox1.Items.Cast<Circle>())
+                {
+                    db.Circles.Add(circle);
+                }
+                db.SaveChanges();
+            }
+        }
+
+        public class DataBaseContext : DbContext
+        {
+            public DataBaseContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User3\Desktop\Solution13\Solution13\MSSQLDB.mdf;Integrated Security=True;Connect Timeout=30") { }
+            public DbSet<Circle> Circles { get; set; }
+        }
+       
     }
 }
