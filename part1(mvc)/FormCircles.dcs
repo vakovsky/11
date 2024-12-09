@@ -222,6 +222,26 @@ namespace WindowsFormsApp1
             this.buttonLoadCSV.UseVisualStyleBackColor = true;
             this.buttonLoadCSV.Click += new System.EventHandler(this.buttonLoadCSV_Click);
             // 
+            // buttonSaveMSSQLDBContext
+            // 
+            this.buttonSaveMSSQLDBContext.Location = new System.Drawing.Point(520, 130);
+            this.buttonSaveMSSQLDBContext.Name = "buttonSaveMSSQLDB";
+            this.buttonSaveMSSQLDBContext.Size = new System.Drawing.Size(87, 23);
+            this.buttonSaveMSSQLDBContext.TabIndex = 16;
+            this.buttonSaveMSSQLDBContext.Text = "Save MSSQL DB";
+            this.buttonSaveMSSQLDBContext.UseVisualStyleBackColor = true;
+            this.buttonSaveMSSQLDBContext.Click += new System.EventHandler(this.buttonSaveMSSQLDBContext_Click);
+            // 
+            // buttonLoadMSSQLDBContext
+            // 
+            this.buttonLoadMSSQLDBContext.Location = new System.Drawing.Point(613, 130);
+            this.buttonLoadMSSQLDBContext.Name = "buttonLoadMSSQLDB";
+            this.buttonLoadMSSQLDBContext.Size = new System.Drawing.Size(87, 23);
+            this.buttonLoadMSSQLDBContext.TabIndex = 17;
+            this.buttonLoadMSSQLDBContext.Text = "Load MSSQL DB";
+            this.buttonLoadMSSQLDBContext.UseVisualStyleBackColor = true;
+            this.buttonLoadMSSQLDBContext.Click += new System.EventHandler(this.buttonLoadMSSQLDBContext_Click);
+            // 
             // FormCircles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,6 +264,8 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.buttonRead);
             this.Controls.Add(this.buttonCreate);
             this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.buttonLoadMSSQLDBContext);
+            this.Controls.Add(this.buttonSaveMSSQLDBContext);
             this.Name = "FormCircles";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -271,6 +293,8 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button buttonLoadMSSQLDB;
         private System.Windows.Forms.Button buttonSaveCSV;
         private System.Windows.Forms.Button buttonLoadCSV;
+        private System.Windows.Forms.Button buttonSaveMSSQLDBContext;
+        private System.Windows.Forms.Button buttonLoadMSSQLDBContext;
     }
 }
 
