@@ -323,15 +323,12 @@ namespace WindowsFormsApp5
             listBox1.Items.Clear();
             using (DataBaseContext db = new DataBaseContext())
             {
-                using (DataBaseContext context = new DataBaseContext())
-                {
-                    List<Circle> circles = (
-                        from c in context.Circles
-                        orderby c.ID
-                        select c
-                    ).ToList();
-                    listBox1.Items.AddRange(circles.ToArray());
-                }
+                List<Circle> circles = (
+                    from c in db.Circles
+                    orderby c.ID
+                    select c
+                ).ToList();
+                listBox1.Items.AddRange(circles.ToArray());
             }
         }
 
