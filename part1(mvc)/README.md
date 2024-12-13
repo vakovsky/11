@@ -8,7 +8,7 @@
 ### [FormCircleView.Designer.cs - Изглед за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.dcs)
 ### [FormCircleView.png - Изглед за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.png)
 ### [FormCircles.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.cs)
-### [FormCircles.Designer.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.dcs))
+### [FormCircles.Designer.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.dcs)
 ### [FormCircles.png - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.png)
 ### [MSSQLDB.mdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/MSSQLDB.mdf)
 ### [Program.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
