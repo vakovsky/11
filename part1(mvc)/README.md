@@ -11,7 +11,7 @@
 ### [FormCircles.Designer.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.Designer.cs)
 ### [FormCircles.png - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.png)
 ### [MSSQLDB.mdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/MSSQLDB.mdf)
-### [Program.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
+### [Program.cs - Входна точка на програмата за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
 ### [ViewCircle.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/ViewCircle.cs)
 ### [Тема DFA.pdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFA.pdf)
 ### [Тема DFMSSQL.pdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFMSSQL.pdf)
