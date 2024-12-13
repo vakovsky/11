@@ -7,17 +7,17 @@
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/DatabasePSD.mdf)
 ### [MSSQLDB.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/MSSQLDB.mdf)
 -
-### [FormCircleView.cs - Изглед за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.cs)
-### [FormCircleView.Designer.cs - Изглед за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.Designer.cs)
-### [FormCircleView.png - Изглед за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.png)
+### [FormCircleView.cs - Изглед за WinFormApp - Бизнес логика](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.cs)
+### [FormCircleView.Designer.cs - Изглед за WinFormApp - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.Designer.cs)
+### [FormCircleView.png - Изглед за WinFormApp - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.png)
 -
-### [FormCircles.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.cs)
-### [FormCircles.Designer.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.Designer.cs)
-### [FormCircles.png - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.png)
+### [FormCircles.cs - Контролер за WinFormApp - Бизнес логика](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.cs)
+### [FormCircles.Designer.cs - Контролер за WinFormApp - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.Designer.cs)
+### [FormCircles.png - Контролер за WinFormApp - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.png)
 -
-### [Program.cs - Входна точка на програмата за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
-### [CircleController.cs Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleController.cs)
 ### [ViewCircle.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/ViewCircle.cs)
+### [CircleController.cs Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleController.cs)
+### [Program.cs - Входна точка на програмата за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
 -
 ### [Тема DFA.pdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFA.pdf)
 ### [Тема DFMSSQL.pdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFMSSQL.pdf)
