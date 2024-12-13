@@ -15,7 +15,7 @@
 ### [FormCircles.Designer.cs - Контролер за WinFormApp - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.Designer.cs)
 ### [FormCircles.png - Контролер за WinFormApp - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.png)
 -
-### [ViewCircle.cs - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/ViewCircle.cs)
+### [ViewCircle.cs - Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/ViewCircle.cs)
 ### [CircleController.cs Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleController.cs)
 ### [Program.cs - Входна точка на програмата за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
 -
