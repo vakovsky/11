@@ -17,7 +17,7 @@
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/DatabasePSD.mdf)
 ## [SQL код за създаване на таблици]
 ### [CircleAccess.sql - Създавате на таблица в Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleAccess.sql)
-### [CirclesMSSQLServer.sql - Създаване на таблица в MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/CirclesMSSQLServer.sql)
+### [CircleMSSQLServer.sql - Създаване на таблица в MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleMSSQLServer.sql)
 ## [Използване на бази от данни от Visual Studio 2022]
 ### [Тема DFA.pdf - Използване на база от данни от Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFA.pdf)
 ### [Тема DFMSSQL.pdf - Използване на база от данни от MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFMSSQL.pdf)
