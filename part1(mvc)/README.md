@@ -1,3 +1,4 @@
+## [Модел]()
 ### [Circle.cs - Модел](https://github.com/vakovsky/11/blob/main/part1(mvc)/Circle.cs)
 -
 ### [ViewCircle.cs - Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/ViewCircle.cs)
