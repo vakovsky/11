@@ -1,4 +1,3 @@
-
 namespace WindowsFormsApp1
 {
     partial class FormCircles
