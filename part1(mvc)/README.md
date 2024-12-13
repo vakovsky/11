@@ -19,8 +19,8 @@
 ### [CircleAccess.sql - Създавате на таблица в Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleAccess.sql)
 ### [Circles.sql Създаване на таблица в MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/Circles.sql)
 -
-### [Тема DFA.pdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFA.pdf)
-### [Тема DFMSSQL.pdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFMSSQL.pdf)
+### [Тема DFA.pdf - Използване на база от данни от Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFA.pdf)
+### [Тема DFMSSQL.pdf - Използване на база от данни от MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFMSSQL.pdf)
 -
 
 ### [Качествен програмен код] (https://introprogramming.info/intro-csharp-book/read-online/glava21-kachestven-programen-kod/)
