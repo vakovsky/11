@@ -15,7 +15,6 @@
 ## [Файлове с базите от данни]
 ### [DatabasePSD.accdb - Файл с базата от данни на Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/DatabasePSD.accdb)
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/DatabasePSD.mdf)
-### [MSSQLDB.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/MSSQLDB.mdf)
 ## [SQL код за създаване на таблици]
 ### [CircleAccess.sql - Създавате на таблица в Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleAccess.sql)
 ### [Circles.sql - Създаване на таблица в MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/Circles.sql)
