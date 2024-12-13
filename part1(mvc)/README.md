@@ -1,7 +1,7 @@
 ## [Модели]
 ### [Circle.cs - Модел](https://github.com/vakovsky/11/blob/main/part1(mvc)/Circle.cs)
 ## [ConsoleApp]
-### [ViewCircle.cs - Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/ViewCircle.cs)
+### [ViewCircle.cs - Изглед за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/ViewCircle.cs)
 ### [CircleController.cs Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleController.cs)
 ### [Program.cs - Входна точка на програмата за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
 ## [Изглед за WinFormApp]
