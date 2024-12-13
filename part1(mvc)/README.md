@@ -22,7 +22,6 @@
 ## [Използване на бази от данни от Visual Studio 2022]
 ### [Тема DFA.pdf - Използване на база от данни от Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFA.pdf)
 ### [Тема DFMSSQL.pdf - Използване на база от данни от MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/%D0%A2%D0%B5%D0%BC%D0%B0%20DFMSSQL.pdf)
--
 
 ### [Качествен програмен код] (https://introprogramming.info/intro-csharp-book/read-online/glava21-kachestven-programen-kod/)
 ### [Задача за упражнение на модели и изгледи] (https://csharp-book.softuni.bg/Content/Chapter-3-2-simple-conditions-exam-problems/exam-problems/ticket-price/ticket-price.html)
