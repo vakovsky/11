@@ -6,7 +6,7 @@
 ### [CircleController.cs Контролер за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/CircleController.cs)
 ### [DatabasePSD.accdb - Файл с базата от данни на Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/DatabasePSD.accdb)
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/DatabasePSD.mdf)
-### [MSSQLDB.mdf - Контролер за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/MSSQLDB.mdf)
+### [MSSQLDB.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/MSSQLDB.mdf)
 
 ### [FormCircleView.cs - Изглед за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.cs)
 ### [FormCircleView.Designer.cs - Изглед за WinFormApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.Designer.cs)
