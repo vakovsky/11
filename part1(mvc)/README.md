@@ -6,7 +6,7 @@
 ### [Program.cs - Входна точка на програмата за ConsoleApp](https://github.com/vakovsky/11/blob/main/part1(mvc)/Program.cs)
 ## [Изглед за WinFormApp]
 ### [FormCircleView.cs - Изглед за WinFormApp - Бизнес логика](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.cs)
-### [FormCircleView.Designer.cs - Изглед за WinFormApp - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.Designer.cs)
+### [FormCircleView.Designer.cs - Изглед за WinFormApp - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCirclesView.Designer.cs)
 ### [FormCircleView.png - Изглед за WinFormApp - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircleView.png)
 ## [Контролер за WinFormApp]
 ### [FormCircles.cs - Контролер за WinFormApp - Бизнес логика](https://github.com/vakovsky/11/blob/main/part1(mvc)/FormCircles.cs)
