@@ -1,5 +1,5 @@
-### [Тестване] (https://rahulshettyacademy.com/blog/index.php/2021/07/13/software-testing-levels-and-testing-types/)
-### [Practical-Software-Development] (https://github.com/BG-IT-Edu/School-Programming/tree/main/Courses/Applied-Programmer/Practical-Software-Development)
+### [Тестване](https://rahulshettyacademy.com/blog/index.php/2021/07/13/software-testing-levels-and-testing-types/)
+### [Practical-Software-Development](https://github.com/BG-IT-Edu/School-Programming/tree/main/Courses/Applied-Programmer/Practical-Software-Development)
 
 ## [Модели]
 ### [Circle.cs - Модел](https://github.com/vakovsky/11/blob/main/part1(mvc)/Circle.cs)
