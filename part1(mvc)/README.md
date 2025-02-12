@@ -1,3 +1,6 @@
+https://www.mon.bg/nfs/2021/03/nip_programist_010321.pdf
+
+
 ### [Тестване](https://rahulshettyacademy.com/blog/index.php/2021/07/13/software-testing-levels-and-testing-types/)
 ### [Practical-Software-Development](https://github.com/BG-IT-Edu/School-Programming/tree/main/Courses/Applied-Programmer/Practical-Software-Development)
 
