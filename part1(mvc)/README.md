@@ -1,4 +1,4 @@
-https://www.mon.bg/nfs/2021/03/nip_programist_010321.pdf
+Задача: страница 41 от https://www.mon.bg/nfs/2021/03/nip_programist_010321.pdf 
 
 
 ### [Тестване](https://rahulshettyacademy.com/blog/index.php/2021/07/13/software-testing-levels-and-testing-types/)
