@@ -30,7 +30,7 @@
 ## Entity Relationship Diagram vs. UML Class Diagram
 ### [Entity Relationship Diagram](https://www.geeksforgeeks.org/introduction-of-er-model/)
 ### [UML Class Diagram](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/?ref=gcse_outind)
-### [ORM](https://github.com/vakovsky/11/blob/main/source/%D0%A2%D0%B5%D0%BC%D0%B0%20CFMSSQL.pdf)
+### [ORM](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/%D0%A2%D0%B5%D0%BC%D0%B0%20CFMSSQL.pdf)
 
 ### [Тестване](https://rahulshettyacademy.com/blog/index.php/2021/07/13/software-testing-levels-and-testing-types/)
 ### [Practical-Software-Development](https://github.com/BG-IT-Edu/School-Programming/tree/main/Courses/Applied-Programmer/Practical-Software-Development)
