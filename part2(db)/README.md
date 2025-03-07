@@ -1,4 +1,4 @@
-### [1.Каквото си направил по Бази от данни? - В Задание са посочени в зелено.](https://github.com/vakovsky/11/tree/main/part2(db)/1.%D0%9A%D0%B0%D0%BA%D0%B2%D0%BE%D1%82%D0%BE%20%D1%81%D0%B8%20%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%20%D0%BF%D0%BE%20%D0%91%D0%B0%D0%B7%D0%B8%20%D0%BE%D1%82%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8)
+### [1.Каквото си направил по Бази от данни? - В Заданието са посочени в зелено.](https://github.com/vakovsky/11/tree/main/part2(db)/1.%D0%9A%D0%B0%D0%BA%D0%B2%D0%BE%D1%82%D0%BE%20%D1%81%D0%B8%20%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%20%D0%BF%D0%BE%20%D0%91%D0%B0%D0%B7%D0%B8%20%D0%BE%D1%82%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8)
 ### [Задание](https://github.com/vakovsky/11/blob/main/part2(db)/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82.pdf).
 ## Достъп до бази от данни
 ### [2.access - Използване на създанена в MS-Access база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/2.access)
