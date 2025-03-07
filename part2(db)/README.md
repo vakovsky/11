@@ -4,7 +4,7 @@
 ## Достъп до бази от данни
 ### [2.access - Използване на създанена в MS-Access база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/2.access)
 #### [Създаване на библиотека.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f3.pdf)
-#### [Създаване на конзолно MVC приложение.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f2.pdf)
+#### [Създаване на конзолно MVC приложение. На схемата в задание под номер 2.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f2.pdf)
 #### [Създаване на десктоп WinForm MVC приложение.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f4.pdf)
 ### [3.dbcontext - Създаване на Същтностни класоев в C# автоматично създаване и използване на MS-SQL база от данни от C# - Code First.](https://github.com/vakovsky/11/tree/main/part2(db)/3.dbcontext)
 #### [Създаване на библиотека.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f3.pdf)
