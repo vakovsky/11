@@ -13,8 +13,8 @@
 #### [Създаване на десктоп WinForm MVC приложение.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f4.pdf)
 ### [4.mssql - Създаване и използване на MS-SQL база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/4.mssql)
 #### [Създаване на библиотека.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f3.pdf)
-#### [Създаване на конзолно MVC приложение.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f2.pdf)
-#### [Създаване на десктоп WinForm MVC приложение.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f4.pdf)
+#### [Създаване на конзолно MVC приложение. На схемата в задание под номер 4.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f2.pdf)
+#### [Създаване на десктоп WinForm MVC приложение. На схемата в задание под номер 5.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f4.pdf)
 ## Потребителски интерфейси
 ### [5.consoleapp - Създаване на конзолно MVC приложение с използване на точки 2, 3 или 4 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/5.consoleapp)
 ### [6.winapp - Създаване на десктоп WinForm MVC приложение с използване на точки 2, 3 или 4 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/6.winapp)
