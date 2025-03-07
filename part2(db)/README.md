@@ -8,6 +8,6 @@
 ### [5.consoleapp - Създаване на конзолно MVC приложение с използване на точки 2, 3 или 4 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/5.consoleapp)
 ### [6.winapp - Създаване на десктоп WinForm MVC приложение с използване на точки 2, 3 или 4 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/6.winapp)
 ### [7.webapp - Създаване на Web MVC приложение с използване на точки 3 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/7.webapp)
-## Достъп до бази от данни - допълнителни
+## Допълнителни
 ### [8.mysql - Използване на създанена в MySQL база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/8.mysql)
 ### [0.memory - Концепция за релационна база от данни в оперативната памет - DataSet.](https://github.com/vakovsky/11/tree/main/part2(db)/0.memory)
