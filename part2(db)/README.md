@@ -3,8 +3,8 @@
 ### [Създаване на прзно решение](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f1.pdf).
 ## Достъп до бази от данни
 ### [2.access - Използване на създанена в MS-Access база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/2.access)
-#### [2.access - Използване на създанена в MS-Access база от данни от C# - Data First.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f1.pdf)
-#### [2.access - Използване на създанена в MS-Access база от данни от C# - Data First.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f1.pdf)
+#### [Създаване на конзолно MVC приложение.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f2.pdf)
+#### [Създаване на десктоп WinForm MVC приложение.](https://github.com/vakovsky/11/blob/main/docs/projects_ver2_f3.pdf)
 ### [3.dbcontext - Създаване на Същтностни класоев в C# автоматично създаване и използване на MS-SQL база от данни от C# - Code First.](https://github.com/vakovsky/11/tree/main/part2(db)/3.dbcontext)
 ### [4.mssql - Създаване и използване на MS-SQL база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/4.mssql)
 ## Потребителски интерфейси
