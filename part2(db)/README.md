@@ -5,7 +5,7 @@
 ### [2.access - Използване на създанена в MS-Access база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/2.access)
 ### [3.dbcontext - Създаване на Същтностни класоев в C# автоматично създаване и използване на MS-SQL база от данни от C# - Code First.](https://github.com/vakovsky/11/tree/main/part2(db)/3.dbcontext)
 ### [4.mssql - Създаване и използване на MS-SQL база от данни от C# - Data First.](https://github.com/vakovsky/11/tree/main/part2(db)/4.mssql)
-## [Потребителски интерфейси]()
+## Потребителски интерфейси
 ### [5.consoleapp - Създаване на конзолно MVC приложение с използване на точки 2, 3 или 4 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/5.consoleapp)
 ### [6.winapp - Създаване на десктоп WinForm MVC приложение с използване на точки 2, 3 или 4 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/6.winapp)
 ### [7.webapp - Създаване на Web MVC приложение с използване на точки 3 за достъп до базата от данни.](https://github.com/vakovsky/11/tree/main/part2(db)/7.webapp)
