@@ -25,7 +25,16 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
-        
+        public ActionResult React()
+        {
+            return View();
+        }
+
+        public ActionResult ReactCircle()
+        {
+            return View();
+        }
+
         // GET: C1/Details/5
         public ActionResult Details(int id)
         {
