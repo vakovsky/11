@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "Knockout.js SPA";
+}
+
+<div id="app">
+    <h1>Кръгове</h1>
+
+    <!-- Форма за добавяне -->
+    <div>
+        <input data-bind="value: newR" placeholder="Радиус" />
+        <button data-bind="click: addCircle">Добави</button>
+    </div>
+
+    <!-- Таблица с данни -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Радиус (R)</th>
+                <th>Лице (Area)</th>
+                <th>Периметър (Perimeter)</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: circles">
+            <tr>
+                <td data-bind="text: ID"></td>
+                <td data-bind="text: R"></td>
+                <td data-bind="text: Area.toFixed(2)"></td>
+                <td data-bind="text: Perimeter.toFixed(2)"></td>
+                <td>
+                    <button data-bind="click: $parent.deleteCircle">Изтрий</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Scripts -->
+<script src="~/Scripts/jquery-3.7.0.js"></script>
+<script src="~/Scripts/knockout-3.5.0.js"></script>
+<!--script src="~/Scripts/app/CirclesViewModel.js"></script!-->
+<script>
+    function CircleViewModel() {
+        var self = this;
+        self.circles = ko.observableArray([]);
+        self.newR = ko.observable("");
+
+        // Зареждане на данни (работи във всички версии)
+        self.loadCircles = function () {
+            $.getJSON('/api/values')  // Алтернатива на fetch за по-стари браузъри
+                .done(function (data) {
+                    self.circles(data);
+                });
+        };
+
+        // Добавяне на кръг
+        self.addCircle = function () {
+            $.ajax({
+                url: '/api/values',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ R: parseInt(self.newR()) }),
+                success: function () {
+                    self.newR("");
+                    self.loadCircles();
+                }
+            });
+        };
+
+        // Изтриване
+        self.deleteCircle = function (circle) {
+            $.ajax({
+                url: '/api/values/' + circle.ID,
+                type: 'DELETE',
+                success: self.loadCircles
+            });
+        };
+
+        self.loadCircles();
+    }
+
+    ko.applyBindings(new CircleViewModel());
+</script>

@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index C1</h1>
+<h2>Angular.js</h2>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>    
+
+<script>
+    var app = angular.module('myApp', []);
+
+    app.controller('CircleController', ['$scope', '$http', function ($scope, $http) {
+        $scope.circles = [];
+
+        // Зареждане на данни от .NET API
+        $http.get('/api/Values').then(function (response) {
+            $scope.circles = response.data;
+        });
+    }]);
+</script>
+
+<div ng-app="myApp" ng-controller="CircleController">
+    <table border="1">
+        <tr ng-repeat="circle in circles">
+            <td>{{ circle.ID }}</td>
+            <td>{{ circle.R }}</td>
+            <td>{{ circle.Area | number:2 }}</td>
+        </tr>
+    </table>
+</div>

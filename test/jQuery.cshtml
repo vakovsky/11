@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index C1</h1>
+<h2>jQuery</h2>
+
+<form id="form1" runat="server">
+    <h2>Списък с кръгове</h2>
+    <table border="1" id="circlesTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Радиус (R)</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "http://localhost:51141/api/values", // смени порта
+            method: "GET",
+            dataType: "json",
+            success: function (data) {
+                var table = $("#circlesTable tbody");
+                data.forEach(function (circle) {
+                    table.append(
+                        "<tr><td>" + circle.ID +
+                        "</td><td>" + circle.R +
+                        "</td><td>" + "<a href=\"delete.html/" + circle.ID + "\">Delete</a>" +
+                        "</td></tr>");
+                });
+            },
+            error: function (xhr, status, error) {
+                alert("Грешка: " + error);
+            }
+        });
+    });
+</script>
+<a href="post.html">Create</a>
