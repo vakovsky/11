@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <title>Списък с Кръгове</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/javascript">
+    const { useEffect, useState } = React;
+
+    function CircleList() {
+      const [data, setData] = React.useState([]);
+      const [loading, setLoading] = React.useState(true);
+      const [error, setError] = React.useState(null);
+
+      React.useEffect(() => {
+        fetch("/api/values")
+          .then(function (res) {
+            if (!res.ok) throw new Error("Грешка при зареждане на API");
+            return res.json();
+          })
+          .then(function (json) {
+            const circles = json.map(function (item) {
+              return {
+                id: item.ID,
+                radius: item.R
+              };
+            });
+            setData(circles);
+          })
+          .catch(function (err) {
+            setError(err);
+          })
+          .finally(function () {
+            setLoading(false);
+          });
+      }, []);
+
+      if (loading) return React.createElement("div", null, "Зареждане...");
+      if (error) return React.createElement("div", null, "Грешка: " + error.message);
+
+      return React.createElement(
+        "div",
+        null,
+        React.createElement("h2", null, "Списък с кръгове"),
+        React.createElement(
+          "ol",
+          null,
+          data.map(function (c) {
+            return React.createElement(
+              "li",
+              { key: c.id },
+              "ID: " + c.id + ", Радиус: " + c.radius
+            );
+          })
+        )
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(React.createElement(CircleList));
+    </script>
+</body>
+</html>
