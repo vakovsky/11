@@ -1,0 +1,46 @@
+
+@{
+    ViewBag.Title = "jQueryJSON";
+}
+
+<h2>jQueryJSON</h2>
+
+@{
+    ViewBag.Title = "jQuery";
+}
+
+<h2>jQuery</h2>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    li {
+        margin-bottom: 4px;
+    }
+</style>
+
+<h2>Списък с коли</h2>
+<ol id="circleList"></ol>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "/api/CarsApi",
+            method: "GET",
+            dataType: "json", // ⬅️ Очакваме JSON, не XML
+            success: function (data) {
+                // Очакваме data да е масив от обекти [{ Id: 1, Name: "BMW" }, ...]
+                data.forEach(function (car) {
+                    $("#circleList").append("<li>Id: " + car.Id + ", Име: " + car.Name + "</li>");
+                });
+            },
+            error: function (xhr, status, error) {
+                $("#circleList").html("<li>Грешка при зареждане на данните: " + error + "</li>");
+            }
+        });
+    });
+</script>
