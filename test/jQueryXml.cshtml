@@ -1,0 +1,43 @@
+
+@{
+    ViewBag.Title = "jQuery";
+}
+
+<h2>jQuery</h2>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    li {
+        margin-bottom: 4px;
+    }
+</style>
+<h2>Списък с кръгове</h2>
+<ol id="circleList"></ol>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "/api/CarsApi",
+            method: "GET",
+            dataType: "xml",
+            success: function (data) {
+                // ⬅️ тук data е XML документ
+
+                // Обхождаме XML с jQuery
+                $(data).find("Car").each(function () {
+                    const id = $(this).find("Id").text();
+                    const name = $(this).find("Name").text();
+                    $("#circleList").append("<li>Id: " + id + ", Име: " + name + "</li>");
+                });
+            },
+            error: function (xhr, status, error) {
+                $("#circleList").html("<li>Грешка при зареждане на данните: " + error + "</li>");
+            }
+        });
+    });
+</script>
