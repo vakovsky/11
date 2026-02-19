@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[Circles] (
     [Id] INT IDENTITY (1, 1) NOT NULL,
     [R]  INT NOT NULL,
-    PRIMARY KEY CLUSTERED ([ID] ASC)
+    PRIMARY KEY CLUSTERED ([Id] ASC)
 );
