@@ -8,7 +8,7 @@ namespace ClassLibrary1
 {
     public class Circle
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public int R { get; set; }
         public double Area
         {
