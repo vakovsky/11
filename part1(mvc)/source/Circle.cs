@@ -27,7 +27,7 @@ namespace ClassLibrary1
         public override string ToString()
         {
             return string.Format("{0} R({1}) Area({2}) Perimeter({3})",
-                ID.ToString(),
+                Id.ToString(),
                 R.ToString(),
                 Area.ToString("F2"),
                 Perimeter.ToString("F2"));
