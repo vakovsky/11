@@ -6,7 +6,7 @@
 ### [Program.cs - Входна точка на програмата](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/Program.cs)
 # [WinFormApp]
 ## [Изглед]
-### [FormCircleView.cs - код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.cs)
+### [FormCircleView.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.cs)
 ### [FormCircleView.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCirclesView.Designer.cs)
 ### [FormCircleView.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.png)
 ## [Контролер]
