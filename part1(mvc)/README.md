@@ -6,6 +6,7 @@
 ### [Program.cs - Входна точка на програмата](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/Program.cs)
 # [WinFormApp]
 ## [Изглед]
+Преглеждаме как изглежда формата на следващата картинка
 ### [FormCircleView.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.png)
 ### [FormCircleView.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCirclesView.Designer.cs)
 ### [FormCircleView.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.cs)
