@@ -11,9 +11,10 @@
 ### Проверяваме иманата на контролите и техния тип: [FormCircleView.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCirclesView.Designer.cs)
 ### Бизнес логика: [FormCircleView.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.cs)
 ## [Контролер]
-### Преглеждаме как изглежда формата на следващата картинка:[FormCircles.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.Designer.cs) 
+### Преглеждаме как изглежда формата на следващата картинка: [FormCircles.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.png)
+[FormCircles.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.Designer.cs) 
 ### [FormCircles.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.cs)
-### [FormCircles.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.png)
+###
 # [Файлове с базите от данни]
 ### [DatabasePSD.accdb - Файл с базата от данни на Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.accdb)
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.mdf)
