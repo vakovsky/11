@@ -1,5 +1,5 @@
 # [Модели]
-### [Circle.cs - Модел](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/Circle.cs)
+### Поставя се в библиотека [Circle.cs - Модел](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/Circle.cs)
 # [ConsoleApp]
 ### [ViewCircle.cs - Изглед](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/ViewCircle.cs)
 ### [CircleController.cs Контролер](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/CircleController.cs)
