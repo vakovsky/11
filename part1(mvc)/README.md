@@ -8,9 +8,9 @@
 ### [FormCircleView.cs - Изглед код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.cs)
 ### [FormCircleView.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCirclesView.Designer.cs)
 ### [FormCircleView.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.png)
-### [FormCircles.cs - Контролер за WinFormApp - Бизнес логика](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.cs)
-### [FormCircles.Designer.cs - Контролер за WinFormApp - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.Designer.cs)
-### [FormCircles.png - Контролер за WinFormApp - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.png)
+### [FormCircles.cs - Контролер код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.cs)
+### [FormCircles.Designer.cs - Контролер Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.Designer.cs)
+### [FormCircles.png - Контролер Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.png)
 ## [Файлове с базите от данни]
 ### [DatabasePSD.accdb - Файл с базата от данни на Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.accdb)
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.mdf)
