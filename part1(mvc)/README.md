@@ -8,7 +8,7 @@
 ## [Изглед]
 
 ### Преглеждаме как изглежда формата на следващата картинка: [FormCircleView.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.png)
-### Проверяваме иманата на контролите и техния тип (най-долу във файла): [FormCircleView.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCirclesView.Designer.cs)
+### Проверяваме иманата на контролите и техния тип: [FormCircleView.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCirclesView.Designer.cs)
 ### [FormCircleView.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.cs)
 ## [Контролер]
 ### [FormCircles.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.cs)
