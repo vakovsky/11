@@ -7,7 +7,6 @@
 ### [Program.cs - Входна точка на програмата](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/Program.cs)
 # [WinFormApp]
 ## [Изглед]
-
 ### Преглеждаме как изглежда формата на следващата картинка: [FormCircleView.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.png)
 ### Проверяваме иманата на контролите и техния тип: [FormCircleView.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCirclesView.Designer.cs)
 ### Бизнес логика: [FormCircleView.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircleView.cs)
@@ -15,7 +14,8 @@
 ### Преглеждаме как изглежда формата на следващата картинка: [FormCircles.png - Снимка на Дизайна](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.png)
 ### Проверяваме иманата на контролите и техния тип: [FormCircles.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.Designer.cs) 
 ### Бизнес логика: [FormCircles.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.cs)
-# [Файлове с базите от данни]
+# [Хранилище]
+## [Файлове с базите от данни]
 ### [DatabasePSD.accdb - Файл с базата от данни на Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.accdb)
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.mdf)
 ## [SQL код за създаване на таблици]
