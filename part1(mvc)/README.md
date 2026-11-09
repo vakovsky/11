@@ -15,6 +15,7 @@
 ### Проверяваме иманата на контролите и техния тип: [FormCircles.Designer.cs - Дизайн](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.Designer.cs) 
 ### Бизнес логика: [FormCircles.cs - Код](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/FormCircles.cs)
 # [Хранилище]
+## [IRepository](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/IRepository.cs)
 ## [Файлове с базите от данни]
 ### [DatabasePSD.accdb - Файл с базата от данни на Access](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.accdb)
 ### [DatabasePSD.mdf - Файл с базата от данни на MS SQL Server](https://github.com/vakovsky/11/blob/main/part1(mvc)/source/DatabasePSD.mdf)
